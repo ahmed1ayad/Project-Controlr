@@ -1,0 +1,160 @@
+[
+  {
+    "ContainingType": "AonFreelancing.Controllers.FreelancersController",
+    "Method": "GetAll",
+    "RelativePath": "api/Freelancers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AonFreelancing.Controllers.FreelancersController",
+    "Method": "Create",
+    "RelativePath": "api/Freelancers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "freelancer",
+        "Type": "AonFreelancing.Models.Freelancer",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AonFreelancing.Controllers.FreelancersController",
+    "Method": "GetFreelancer",
+    "RelativePath": "api/Freelancers/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AonFreelancing.Controllers.FreelancersController",
+    "Method": "Delete",
+    "RelativePath": "api/Freelancers/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AonFreelancing.Controllers.ProdectControlr",
+    "Method": "GetAll",
+    "RelativePath": "v1/ProdectControlr",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AonFreelancing.Controllers.ProdectControlr",
+    "Method": "Create",
+    "RelativePath": "v1/ProdectControlr",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "prodect",
+        "Type": "AonFreelancing.Models.prodect",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AonFreelancing.Controllers.ProdectControlr",
+    "Method": "GetProdectById",
+    "RelativePath": "v1/ProdectControlr/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AonFreelancing.Controllers.ProdectControlr",
+    "Method": "DeleteProject",
+    "RelativePath": "v1/ProdectControlr/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AonFreelancing.Controllers.ProdectControlr",
+    "Method": "UpdateProject",
+    "RelativePath": "v1/ProdectControlr/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedProjec",
+        "Type": "AonFreelancing.Models.prodect",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AonFreelancing.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[AonFreelancing.WeatherForecast, AonFreelancing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
